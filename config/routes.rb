@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
+  resources :orders
   resources :line_items
+  resources :line_items do
+    post "decrement", on: :member
+  end
+
   resources :carts
   get 'store/index'
 

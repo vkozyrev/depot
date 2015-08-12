@@ -14,10 +14,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  product_id: ruby
+  product: ruby
   cart: one
   order: one
 
 two:
-  product_id: ruby
+  product: ruby
   cart: one
+
+three:
+  product: ruby
+  cart: one
+  order: one
